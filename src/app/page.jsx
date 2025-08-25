@@ -31,7 +31,7 @@ export default function Home() {
 
           <div
             onClick={() => setSelectedApp("work")}
-            className="flex flex-col items-center gap-2 text-white"
+            className="flex flex-col items-center gap-2 cursor-pointer text-white"
           >
             <Image
               src="/assets/folder.png"
@@ -44,7 +44,7 @@ export default function Home() {
 
           <div 
           onClick={() => setSelectedApp("internet")}
-          className="flex flex-col items-center gap-2 text-white">
+          className="flex flex-col items-center gap-2 cursor-pointer text-white">
             <Image
               src="/assets/network.png"
               alt="Globe"

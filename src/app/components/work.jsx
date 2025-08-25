@@ -52,15 +52,10 @@ export default function MyWorkModal({ onClose }) {
               </li>
             </ul>
           </div>
-
           <div className="border border-gray-400 p-2 bg-gray-50">
-            <h3 className="font-semibold text-blue-800 mb-1">📖 Writing</h3>
-            <a
-                target="_blank"
-                href="https://medium.com/@ruchi3110pawar/guilt-and-shame-94a9f20baf1c" 
-              className="text-blue-700 underline hover:text-blue-900">
-              Guilt_and_Shame.txt
-            </a>
+            <h3 className="font-semibold text-blue-800 mb-1">🚀 Clubs</h3>
+            <p>Manipal Information Security Team (MIST)</p>
+            <p>Rotaract Club, Manipal</p>
           </div>
         </div>
       </div>
